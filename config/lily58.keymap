@@ -43,7 +43,7 @@
 &kp F1     &kp F2           &kp UP           &kp F4            &kp F5       &kp LBRC                       &kp F7    &kp F8    &kp F9          &kp F10   &kp F11   &kp F12
 &kp GRAVE  &kp LEFT         &kp DOWN         &kp RIGHT          &kp DOLLAR   &kp RBRC                    &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &kp TILDE
 &trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans       &trans    &trans   &trans    &trans    &kp MINUS &kp KP_PLUS     &kp LBRC  &kp RBRC  &kp PIPE
-                                              &RET            &trans       &trans    &trans   &trans    &trans    &trans    &trans
+                                              &kp RET            &trans       &trans    &trans   &trans    &trans    &trans    &trans
 			>; 
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
