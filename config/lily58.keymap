@@ -41,11 +41,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-  &kp ESC            &kp F1             &kp F2             &kp F3      &kp F4     &kp F5                                      &kp F6     &kp F7           &kp F8  &kp MINUS        &kp EQUAL       &kp DEL
-   &kp F1            &kp F2             &kp UP             &kp F4      &kp F5   &kp LBRC                                     &kp F11    &kp F12           &kp F9    &kp F10        &kp TILDE  &kp KP_EQUAL
-   &trans          &kp LEFT           &kp DOWN          &kp RIGHT  &kp DOLLAR   &kp RBRC                                   &kp CARET   &kp AMPS  &kp KP_MULTIPLY   &kp LPAR         &kp PIPE     &kp TILDE
-&kp TILDE  &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG      &trans  &kp GRAVE  &kp LEFT_BRACE  &kp RIGHT_BRACE     &trans  &kp MINUS      &kp KP_PLUS   &kp LBRC  &kp RIGHT_BRACE        &trans
-                                                           &trans      &trans     &trans         &kp RET          &kp RET     &trans     &trans           &trans
+&kp ESC     &kp F1             &kp F2             &kp F3      &kp F4     &kp F5                                      &kp F6     &kp F7           &kp F8  &kp MINUS        &kp EQUAL       &kp DEL
+ &kp F1     &kp F2             &kp UP             &kp F4      &kp F5   &kp LBRC                                     &kp F11    &kp F12           &kp F9    &kp F10        &kp TILDE  &kp KP_EQUAL
+ &trans   &kp LEFT           &kp DOWN          &kp RIGHT  &kp DOLLAR   &kp RBRC                                   &kp CARET   &kp AMPS  &kp KP_MULTIPLY   &kp LPAR         &kp PIPE     &kp TILDE
+ &trans  &kp TILDE  &ext_power EP_OFF  &ext_power EP_TOG      &trans  &kp GRAVE  &kp LEFT_BRACE  &kp RIGHT_BRACE     &trans  &kp MINUS      &kp KP_PLUS   &kp LBRC  &kp RIGHT_BRACE        &trans
+                                                  &trans      &trans     &trans         &kp RET          &kp RET     &trans     &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
