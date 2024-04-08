@@ -60,11 +60,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans       &trans     &trans        &trans        &trans           &kp LC(LG(Q))
-&kp GRAVE   &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                        &kp N6       &kp N7     &kp UP_ARROW  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                        &trans       &kp LEFT   &kp DOWN      &kp RIGHT     &kp RIGHT        &kp K_PLAY_PAUSE
-&kp F7      &kp F8        &kp F9        &kp F10       &kp F11       &kp F12       &trans  &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp LBKT      &kp RBKT         &kp BSLH
-                                        &trans        &trans        &trans        &trans  &trans  &trans       &trans     &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &trans       &trans      &trans          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(LG(Q))
+&kp GRAVE   &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                        &kp N6       &kp N7      &kp UP_ARROW    &kp C_VOL_DN          &kp C_VOLUME_UP       &trans
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                        &trans       &kp LEFT    &kp DOWN        &kp RIGHT             &kp RIGHT             &kp C_PLAY_PAUSE
+&kp F7      &kp F8        &kp F9        &kp F10       &kp F11       &kp F12       &trans  &trans  &kp KP_PLUS  &kp C_MUTE  &kp C_PREVIOUS  &kp C_NEXT            &kp RBKT              &kp BSLH
+                                        &trans        &trans        &trans        &trans  &trans  &trans       &trans      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
